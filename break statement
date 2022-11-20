@@ -1,0 +1,44 @@
+
+ # for loops
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    # 345
+legends = ["messi", "ronaldo"]
+for x in legends:
+    print(x)
+family = ["father-unnikrishnan", "mother- sangeetha", "brother-u akshay"]
+for x in family:
+    print(x)
+# 5677
+for x in "banana":
+    print(x)
+for x in "ronaldo":
+    print(x)
+# breakstatement
+fruits = ["apples", "banana", "cherry"]
+for x in fruits:
+    print(x)
+# 655
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    if x == "banana":
+        break
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    if x == "cherry":
+        break
+# 66609
+for x in range(6):
+    print(x)
+for x in range(2, 6):
+    print(x)
+for x in range(2, 10, 2):
+    print(x)
+    #else in for loops
+for x in range(2,15,3):
+    print(x)
+else:
+    print("finally finished")
